@@ -54,9 +54,9 @@ public class GunGen extends GunProvider
                 .build());
 
         this.addGun(new ResourceLocation(Reference.MOD_ID, "bazooka"), Gun.Builder.create()
-                .setFireRate(80)
+                .setFireRate(3)
                 .setGripType(GripType.BAZOOKA)
-                .setMaxAmmo(1)
+                .setMaxAmmo(8)
                 .setRecoilAngle(10.0F)
                 .setRecoilDurationOffset(0.25F)
                 .setAmmo(ModItems.MISSILE.get())
